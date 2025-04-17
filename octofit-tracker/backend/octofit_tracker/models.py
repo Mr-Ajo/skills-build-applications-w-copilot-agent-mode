@@ -11,7 +11,7 @@ class User(models.Model):
 
 class Team(models.Model):
     name = models.CharField(max_length=255)
-    members = models.ArrayField(model_container=User)
+    members = models.ManyToManyField(User)
 
     def __str__(self):
         return self.name

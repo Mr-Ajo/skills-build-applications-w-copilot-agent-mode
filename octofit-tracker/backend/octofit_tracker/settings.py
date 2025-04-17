@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-+8xqgk9*bq!af%$=6h0sj)7p+)#+%ns^4m#j)&c)v5+inj@lhm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'jubilant-palm-tree-4jgpwxwx495qh5x7w-8000.app.github.dev']
 
 
 # Application definition
